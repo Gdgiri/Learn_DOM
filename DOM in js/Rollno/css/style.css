@@ -1,0 +1,80 @@
+*{
+    padding: 10px;
+    margin: 20px;
+    border: 100%;
+}
+
+html ,css{
+    background-color: gray;
+    padding: 10px;
+    margin: 10px;
+}
+
+h1{
+    background-color: rgb(89, 166, 202);
+    color: white;
+    text-align: center;
+}
+
+
+p{
+    padding: 30px;
+    margin: 35px;
+    text-align: center;
+    background-color: rgb(143, 195, 193);
+    color: black;
+}
+
+#div{
+    text-align: center;
+    padding: 10px ;
+    margin: 5px;
+    background-color: rgb(114, 158, 176);
+    
+}
+
+#degree{
+    outline: none;
+    background-color: aliceblue;
+}
+
+#year{
+    outline: none;
+    background-color: aliceblue;
+}
+
+#roll{
+    outline: none;
+    background-color: aliceblue;
+}
+
+#dept{
+    outline: none;
+    background-color: aliceblue;
+}
+
+#name{
+    outline: none;
+    background-color: aliceblue;
+}
+
+#save{
+    outline: none;
+    background-color: rgb(78, 188, 192);
+    border-radius: 5px;
+    font-weight: bold;
+   
+    
+}
+
+#man{
+    text-align: center;
+}
+
+#output{
+    position: relative;
+    bottom: 30px;
+}
+
+
+

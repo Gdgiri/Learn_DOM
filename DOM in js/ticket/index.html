@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Bus Ticket Booking</title>
+</head>
+<body>
+    <div class="container">
+      <div id="head">
+        <h1>Bus Ticket Booking</h1>
+      </div>
+        <form id="booking-form">
+          <div id="name">
+            <label for="name">Passenger Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div><br>
+          <div id="route">
+            <label for="route">Select Route:</label>
+            <select id="route" name="route">
+                <option value="route1">Trichy</option>
+                <option value="route2">Salem</option>
+                <option value="route3">Banglore</option>
+            </select>
+          </div>
+          <div id="seat">
+            <div class="seat-map">
+                <p>Select a seat:</p>
+                <div class="seats"></div>
+            </div>
+          </div>
+            <div id="btn">
+            <button type="submit">Book Ticket</button>
+          </div>
+        </form>
+        <div id="booking-status"></div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>VOTE</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      VOTE
+    </header>
+    <div id="head">
+      <h1>Eligibile or not for VOTE</h1>
+    </div>
+
+    <div id="input">
+      <input type="text" placeholder="Enter the name"  id="name"  ><br><br>
+      <input type="number" placeholder="Enter the age" id="age" maxlength="2" ><br><br>
+      <select id="district" siptze="4" >
+        <option>Sivagangai</option>
+      </select><br><br>
+      <select id="city" siptze="4" >
+        <option>Devakottai</option>
+        <option>Ramnagar</option>
+        <option>Rasthaa</option>
+        <option>Karaikudi</option>
+      </select><br><br>
+      <button onclick="myFunction()" type="submit" id="save">SAVE</button>
+
+
+   </div>
+
+    
+      <div id="output"> 
+        <p id="op"></p>
+        <p id="oq"></p>
+        <p id="or"></p>
+        <p id="os"></p>
+       
+    
+      </div>
+
+      <div id="output">
+        
+        <p id="ot"></p>
+        <p id="ov"></p>
+        <p id="ou" ></p>
+        <div onclick="removeItem(event)">
+          <i style="cursor: pointer; ">❌</i>
+        </div>
+        <script>
+          function removeItem(event){
+         location.reload();
+          }
+
+          
+        </script>
+        
+      </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

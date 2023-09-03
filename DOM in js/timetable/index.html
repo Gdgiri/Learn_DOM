@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Class Timetable</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .timetable {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+  }
+  .entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .edit-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+<div class="timetable">
+  <div class="entry">
+    <span>Monday</span>
+    <span>9:00 AM - 11:00 AM</span>
+    <button class="edit-button">Edit</button>
+  </div>
+  <div class="entry">
+    <span>Tuesday</span>
+    <span>11:30 AM - 1:30 PM</span>
+    <button class="edit-button">Edit</button>
+  </div>
+  <!-- Add more entries here -->
+</div>
+<script>
+  const editButtons = document.querySelectorAll('.edit-button');
+  
+  editButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const entry = button.parentElement;
+      const day = entry.querySelector('span:first-child').textContent;
+      const time = entry.querySelector('span:nth-child(2)').textContent;
+      
+      const newTime = prompt(`Edit ${day} time:`, time);
+      if (newTime !== null) {
+        entry.querySelector('span:nth-child(2)').textContent = newTime;
+      }
+    });
+  });
+</script>
+</body>
+</html>

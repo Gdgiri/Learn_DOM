@@ -1,0 +1,26 @@
+*{
+    padding: 10px;
+    margin: 20px;
+}
+
+html ,css{
+    background-color: gray;
+    padding: 10px;
+    margin: 10px;
+}
+
+h1{
+    background-color: rgb(89, 166, 202);
+    color: white;
+    text-align: center;
+}
+
+
+p{
+    padding: 30px;
+    margin: 50px;
+    text-align: center;
+    background-color: rgb(143, 195, 193);
+    color: black;
+}
+

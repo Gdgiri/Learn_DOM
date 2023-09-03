@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Target Page</title>
+</head>
+<body>
+    <script>
+        // Get the query parameter value from the URL
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const transferredValue = urlParams.get('value');
+        const transferredValues = urlParams.get('values');
+
+        // Display the transferred value on the target page
+        const outputElement = document.createElement('p');
+        outputElement.textContent = `Transferred Value: ${transferredValue}`;
+        document.body.appendChild(outputElement);
+
+        const outputElements = document.createElement('q');
+        outputElements.textContent = `Transferred Value: ${transferredValues}`;
+        document.body.appendChild(outputElements);
+    </script>
+</body>
+</html>
