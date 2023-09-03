@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+
+}
+
+html,body{
+    background-color: aliceblue;
+}
+
+
+
+#header{
+    background-color: #0d0630;
+    color: ghostwhite;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+
+    
+}
+
+
+main{
+    background-color: white;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+}
+
+
+
+
+
