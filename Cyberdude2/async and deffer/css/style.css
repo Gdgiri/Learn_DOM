@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito:wght@200&family=Tilt+Prism&display=swap');
+#head{
+    background-color: rgb(48, 152, 173);
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+
+#header{
+    background-color: rgb(32, 132, 147);
+    color: ghostwhite;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-style: inherit;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Tilt Prism', cursive;
+}
+
